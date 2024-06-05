@@ -1,0 +1,71 @@
+.addcar{
+    margin-left: 20rem;
+    box-shadow: 0px 0px 1px;
+    background-color: #282c34;
+    position: absolute;
+    z-index: 888;
+    display: flex;
+    padding: 15px 50px 15px 50px ;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+.addcar-icon{
+  font-weight: bold;
+  background-color: rgb(40, 170, 40);
+  border-radius: 5px;
+  font-size: 30px;
+
+}
+.addcar-paragragh-icon{
+    display: flex;
+    gap: 90px;
+}
+.addcar-form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.label-input-addcar{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.label-input-date{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.addcar-button{
+    width: 70%;
+    padding: 8px 20px 8px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 170, 40);
+
+}
+
+.label-input-addcar input{
+   padding: 8px 30px 8px 30px;
+   border: none;
+   color: #282c34;
+   border-radius: 5px;
+}
+
+.label-input-date input{
+      padding: 7px 53px 8px 53px;
+      border: none;
+    color: #282c34;
+    border-radius: 5px;
+ 
+}
+.label-input-addcar label{
+    font-size: 12px;
+}
+
+.label-input-date label{
+    font-size: 12px;
+}
+
+

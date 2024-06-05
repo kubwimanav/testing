@@ -1,0 +1,63 @@
+.active{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.activecar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.active-head{
+   background-color: rgb(40, 170, 40);
+   border-radius: 10px;
+}
+
+.activecard1{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(37,43,49);
+    width: 160px;
+    gap: 5px;
+    height: 4.5rem;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.activecard1 img{
+    width: 40%;
+}
+.activecard12{
+    display: flex;
+    gap: 10px;
+}
+.activecard{
+    display: flex;
+    gap: 11px;
+}
+
+.tableactiveparagraph{
+    width: 59rem;
+    display: flex;
+    justify-content: space-between;
+}
+.id-icon{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+@media (max-width:1000px) {
+   .tableactiveparagraph{
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+} 
+.activecard{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+}

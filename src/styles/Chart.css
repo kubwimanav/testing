@@ -1,0 +1,80 @@
+.chart-chartcard{
+    display: flex;
+    gap: 60px;
+}
+.responsivecontainer{
+    width: 43rem;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+
+
+
+
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+.Chart-card-1{
+    display: flex;
+    gap: 10px;
+}
+.chartimage{
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+}
+.chart-paragraph{
+    display: flex;
+    gap: 42px;
+}
+.chart-paragraph2{
+    font-size: 11px;
+    color: rgb(167, 164, 164);
+}
+.chart-paragraph1{
+ font-size: 12px;
+}
+.chart-paragraph2-view{
+    font-size: 12px;
+    text-decoration: none;
+    color: #28981E;
+}
+.chart-div1{
+    display: flex;
+    gap: 23px;
+}
+.chart-car-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+@media (max-width:1200px) {
+    .chart-chartcard{
+    display: flex;
+    gap: 20px;
+}
+.responsivecontainer{
+    width: 620px;
+    height: 200px;
+    background-color:rgb(37,43,49) ;
+    border-radius: 10px;
+}
+.chartcard{
+    display: flex;
+    flex-direction: column;
+    width: 91%;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+     background-color:rgb(37,43,49);
+}
+
+}

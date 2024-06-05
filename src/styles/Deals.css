@@ -1,0 +1,136 @@
+.deals{
+    width: 59rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.table-deals table {
+   width: 100%;
+   color: #191943 !important;
+   background-color: rgb(52,60,69);
+ border-radius: 10px;
+
+
+}
+
+.table-deals td img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.table-deals td{
+    font-size: 14px;
+}
+
+.table-deals table,
+td,th{
+  border-collapse: collapse;
+  padding: 10px;
+  text-align: left;
+}
+
+.table-deals thead {
+    font-size: 13px;
+     background-color: #28981E;
+     border-radius: 10px 10px 10px 10px;
+
+
+}
+
+
+
+
+
+.table-deals tbody tr {
+  --delay: 0.1s;
+}
+
+
+
+
+
+.table-deals tbody tr td,
+tbody tr td p,
+tbody tr td img {
+  transition: 0.2s ease-in-out;
+}
+
+.table-deals tbody tr.hide td,
+tbody tr.hide td p {
+  padding: 0;
+  font: 0 / 0 sans-serif;
+  transition: 0.2s ease-in-out 0.5s;
+}
+
+.table-deals tbody tr.hide td img {
+  width: 0;
+  height: 0;
+  transition: 0.2s ease-in-out 0.5s;
+}
+
+.table-deals .status {
+  padding: 0.4rem 0;
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.table-deals .status.delivered {
+  background-color: #86e49d;
+  color: #006b21;
+}
+
+.table-deals .status.cancelled {
+  background-color: #d893a3;
+  color: #b30021;
+}
+
+.table-deals .status.pending {
+  background-color: #ebc474;
+}
+
+.table-deals .status.shipped {
+  background-color: #6fcaea;
+}
+.deals-icon{
+    font-size: 15px;
+    display: flex;
+    gap: 5px;
+}
+.head-active
+{
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+.deals{
+    width: 45rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.table-deals table,
+td,th{
+  border-collapse: collapse;
+  padding: 6px;
+  text-align: left;
+}
+}
+
+@media (max-width: 900px) {
+.deals{
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.table-deals table,
+td,th{
+  border-collapse: collapse;
+  padding: 0px;
+  text-align: left;
+}
+}
+
+

@@ -1,0 +1,114 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+
+
+.custom-table-payment {
+  background-color: rgb(52,60,69);
+ border-collapse: collapse;
+ display: flex;
+ border-radius: 10px;
+ padding: 1px 0px 1px 0px;
+ flex-direction: column;
+ justify-content: center;
+}
+ 
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 50px 7px 53px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 64px 9px 50px;
+    font-size: 14px;
+
+}
+
+
+
+
+.image {
+    width: 100px;
+    height: 100px;
+}
+.tablepaymentparagraph{
+    width: 59rem;
+    display: flex;
+    justify-content: space-between;
+}
+.paragraphtable2{
+    display: flex;
+
+    gap: 5px ;
+    align-items: center;
+    background-color: #28981E;
+    border-radius: 5px;
+    padding: 6px;
+}
+.paragraphtable2 p{
+    font-size: 13px;
+}
+.dataimage{
+    width: 25px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+@media (max-width:1200px) {
+    
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 41px 7px 44px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 55px 9px 41px;
+    font-size: 14px;
+
+} 
+.tablepaymentparagraph{
+    width: 47rem;
+    display: flex;
+    justify-content: space-between;
+}
+}
+@media (max-width:1000px) {
+    
+ .custom-table-payment td {
+     font-size: 13px;
+    padding: 7px 41px 7px 44px;
+   
+}
+.head
+{
+    background-color: #28981E;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+}
+.head th{
+    padding: 9px 55px 9px 41px;
+    font-size: 14px;
+
+} 
+.tablepaymentparagraph{
+    width: 50rem;
+    display: flex;
+    justify-content: space-between;
+}
+}

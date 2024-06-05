@@ -1,0 +1,62 @@
+.settings{
+    display: flex;
+    gap: 119px;
+}
+
+.settingpage{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap: 7px;
+   
+}
+.pageactive{
+    display: flex;
+    gap: 7px;
+    width: 100%;
+     text-decoration: none;
+    list-style: none;
+    background-color: rgb(23,90,112);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.settingicon{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    font-size: 15px;
+}
+.settingcard{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(37,43,49);
+    width: 14.5rem;
+    height: 90%;
+    padding: 15px 30px 15px 30px;
+    gap: 10px;
+    border-radius: 10px;
+    
+}
+.settingparagraph2{
+    font-size: 12px;
+    color: rgb(143, 141, 138);
+}
+.setting-page-link{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+@media (max-width:1200px) {
+    .settings{
+    display: flex;
+    gap: 20px;
+}
+}
+@media (max-width:900px) {
+    .settings{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+}

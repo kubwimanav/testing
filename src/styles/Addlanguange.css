@@ -1,0 +1,26 @@
+.languange-card{
+    width: 27rem;
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    background-color: #282c34;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.languange-table{
+    border: 1px solid white;
+}
+.languange-table td{
+       border: 1px solid white;
+ 
+}
+
+.languange-card button{
+    width: 10rem;
+    border: none;
+    border-radius: 5px;
+    height: 2.5rem;
+    color: white;
+    background-color: rgb(40, 170, 40);
+}

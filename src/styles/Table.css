@@ -1,0 +1,206 @@
+.customtables{
+    padding: 7px;
+    background-color:rgb(37,43,49);
+    border-radius: 10px;
+}
+.custom-table{
+border-collapse: collapse;
+}
+tbody{
+    font-size: 14px;
+} 
+.customtable{
+    display: flex;
+    gap: 32rem;
+    align-items: center;
+    justify-content: center;
+} 
+.customtable p{
+     font-size: 14px;
+}
+
+.custom-table th{
+    font-size: 14px;
+    padding: 5px 30px 5px 30px ;
+    border-bottom: 1px solid white;
+}
+.custom-table td{
+    padding: 5px 30px 5px 30px ;
+    border-bottom: 1px solid white;
+
+}
+
+
+ .toolbarr{
+    width: 100%;
+    height: 5px;
+    border-radius: 2px;
+    background-color: antiquewhite;
+}
+.toolbar{
+    width: 100%;
+} 
+.spanbar{
+    position: relative;
+    display: block;
+    background-color: #1A56DB;
+    height: 100%;
+    width: 80%;
+}
+.divbar{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar1{
+    position: relative;
+    display: block;
+    background-color: #1A56DB;
+    height: 100%;
+    width: 72%;
+}
+.divbar1{
+    color: #1A56DB;
+
+}
+
+
+.spanbar2{
+    position: relative;
+    display: block;
+    background-color: #1A56DB;
+    height: 100%;
+    width: 59%;
+}
+.divbar2{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar3{
+    position: relative;
+    display: block;
+    background-color: #1A56DB;
+    height: 100%;
+    width: 49%;
+}
+.divbar3{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.spanbar4{
+    position: relative;
+    display: block;
+    background-color: #1A56DB;
+    height: 100%;
+    width: 39%;
+}
+.divbar4{
+    color: black;
+    position: absolute;
+    font-size: 7px;
+    right: -20px;
+
+}
+
+
+.skills{
+    
+    background-color: rgb(52,60,69);
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 11rem;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.skillstext{
+    font-size: 10px;
+    color: white;
+   display: flex;
+   justify-content: space-between;
+}
+.skillsparagraph{
+    font-size: 14px;
+    color: white;
+}
+.skils-table{
+    display: flex;
+    gap: 52px;
+}
+
+
+@media (max-width:1200px) {
+    .skils-table{
+    display: flex;
+    gap: 20px;
+}
+.customtable{
+    display: flex;
+    gap: 27rem;
+    align-items: center;
+    justify-content: center;
+} 
+.customtable p{
+     font-size: 14px;
+}
+
+.custom-table th{
+    font-size: 15px;
+    padding: 5px 25px 5px 25px ;
+    border-bottom: 1px solid white;
+}
+.custom-table td{
+    padding: 5px 25px 5px 25px ;
+    border-bottom: 1px solid white;
+
+}
+    
+}
+
+/* @media (max-width:900px) {
+    .skils-table{
+    display: flex;
+    gap: 20px;
+}
+.customtable{
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: center;
+} 
+.customtable p{
+     font-size: 14px;
+}
+
+.custom-table{
+    display: none;
+}
+.custom-table th{
+    font-size: 15px;
+    padding: 5px 10px 5px 10px ;
+    border-bottom: 1px solid white;
+}
+.custom-table td{
+    padding: 5px 10px 5px 10px ;
+    border-bottom: 1px solid white;
+
+}
+    
+} */

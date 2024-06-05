@@ -1,0 +1,25 @@
+.notification{
+    background-color: aliceblue;
+    padding: 2px;
+    color: rgb(37,43,49);
+    width: 30rem;
+    display: flex;
+    border-radius: 5px;
+     gap: 10px;
+}
+
+.notparagraph1{
+    font-size: 11px;
+}
+.notification p{
+  color: rgb(37,43,49);
+}
+.notifications-1{
+    display: flex;
+    background-color: rgb(37,43,49);
+    height: 77.7%;
+    padding: 39px 24px 39px 24px;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 10px;
+}

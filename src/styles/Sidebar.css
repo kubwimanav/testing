@@ -1,0 +1,154 @@
+
+.sidebar{
+    height: 97.8vh;
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(52,60,69);
+    color: white;
+}
+.profile1{
+    display: flex;
+    gap: 2px;
+}
+.profile12{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+.profile1 p{
+    font-size: 10px;
+}
+.profile-header-para{
+    display: flex; 
+    gap: 2px;
+}
+.profile-header-para1{
+    color: rgb(51,93,184);
+border-bottom: 1px solid rgb(51,93,184);
+ 
+}
+.profile-header-para2{
+    color: #28981E;
+ border-bottom: 1px solid #28981E;
+ 
+}
+.profile{
+    justify-content: center;
+    display: flex;
+
+    align-items: center;
+     width: 50px;
+     background-image: url("/7xm 8.png");
+     background-size: cover; 
+     background-position: center;
+     border-bottom: 3px solid rgb(51,93,184);
+     border-top: 3px solid #28981E;
+     border-left: 3px solid #28981E;
+     border-right: 3px solid rgb(51,93,184);
+     border-radius: 50%;
+     height: 50px;
+}
+.profile img{
+    width: 40px;
+    height: 40px;
+   
+}
+.othermenus{
+display: flex;
+flex-direction: column;
+gap: 40px;
+}
+.linkside {
+    display: flex;
+    gap: 4px;
+    text-decoration: none;
+}
+.linkside-active
+{
+    display: flex;
+    width: 70%;
+    gap: 4px;
+    text-decoration: none;
+    background-color: #28981E;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.list_dash{
+color: white;
+ font-size: 13px;
+ list-style: none;
+font-family: Arial, Helvetica, sans-serif;
+text-decoration: none;
+}
+
+.logout{
+    color: white;
+    text-decoration: none;
+}
+.weekly{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+    justify-content: center;
+     width: 60%;
+     font-size: 13px;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: #28981E;
+    
+}
+.weeklypargraph{
+    font-size: 11px;
+}
+.weekly button{
+    background-color: rgb(52,60,69);
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.icon{
+    font-size: 16px;
+}
+.logout-icon{
+    font-size: 15px ;
+    color: red;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.othermenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.profile1 p{
+    margin-top: 20px;
+    height: 13px;
+}
+
+
+
+
+@media (max-width:1350) {
+    .sidebar{
+    height: 90.8vh;
+    padding-top: 13px;
+    padding-left: 10px;
+    width: 12.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(52,60,69);
+    color: white;
+}
+}
